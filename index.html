@@ -1,0 +1,86 @@
+<!doctype html5>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta-name="viewport" content="width=devices-width, initial-scale=1.0">
+<title>TaiPan Assessment</title>
+<link rel="stylesheet" href="main.css">   
+<script src="script.js"></script>
+<body onload="startUp()">
+  <img id="header" src="images/test5.webp">
+  <div id="header2">Your goal: become an entrepreneur. Buy commodities when they are low, sell high when demand increases. Become a billionaire, plunder, sell and most of all, profit.</div>
+  <h2>Your current money is:&nbsp;<span>$</span><span id="cash"></span></h2>
+  <div id="wrap1">
+  <div id="box1">
+    <img id="potatoImage">
+    <p>
+        <p id="regt">The current cost of potatoes are:<br><span>$</span><span id="potatoCost">65</span></p>
+        <input id="buttPotatoBUY" type="button" value="BUY" onclick="clkPurchase()">
+        <input id="buttPotatoSELL" type="button" value="SELL" onclick="clkSell()"><br>
+        <p id="reg">Current potatoes:&nbsp;<span id="potatoInventory">0</span></p>
+    </p>
+    </div>
+
+    <div id="box2">
+        <img id="potatoImage">
+      <p>
+          <p id="regt">The current cost of spuds are:<br><span>$</span><span id="spudCost">100</span></p>
+          <input id="buttSpudBUY" type="button" value="BUY" onclick="clkPurchase2()">
+          <input id="buttSpudSELL" type="button" value="SELL" onclick="clkSell2()"><br>
+          <p id="reg">Current spuds:&nbsp;<span id="spudInventory">0</span></p>
+      </p>
+      </div><br>
+
+    <div id="box3">
+        <img id="potatoImage">
+        <p>
+            <p id="regt">The current cost of mash is:<br><span>$</span><span id="mashCost">50</span></p>
+            <input id="buttMashBUY" type="button" value="BUY" onclick="clkPurchase3()">
+            <input id="buttSpudSELL" type="button" value="SELL" onclick="clkSell3()"><br>
+            <p id="reg">Current mash:&nbsp;<span id="mashInventory">0</span></p>
+        </p>
+        </div>
+
+    <div id="box4">
+        <img id="potatoImage">
+          <p>
+              <p id="regt">The cost of sweet potato is:<br><span>$</span><span id="sPotatoCost">85</span></p>
+              <input id="buttSPotatoBUY" type="button" value="BUY" onclick="clkPurchase4()">
+              <input id="buttSPotatoSELL" type="button" value="SELL" onclick="clkSell4()"><br>
+              <p id="reg">Current sweet tatos:&nbsp;<span id="sPotatoInventory">0</span></p>
+          </p>
+          </div><br>
+
+        <div id="box5">
+            <img id="potatoImage">
+            <p>
+                <p id="regt">The current cost of taters are:<br><span>$</span><span id="taterCost">70</span></p>
+                <input id="buttTaterBUY" type="button" value="BUY" onclick="clkPurchase5()">
+                <input id="buttTaterSELL" type="button" value="SELL" onclick="clkSell5()"><br>
+                <p id="reg">Current taters:&nbsp;<span id="taterInventory">0</span></p>
+            </p>
+            </div>
+
+        <div id="box6">
+            <img id="potatoImage">
+                <p>
+                    <p id="regt">The cost of irish potatoes are:<br><span>$</span><span id="iPotatoCost">120</span></p>
+                    <input id="buttIPotatoBUY" type="button" value="BUY" onclick="clkPurchase6()">
+                    <input id="buttIPotatoSELL" type="button" value="SELL" onclick="clkSell6()"><br>
+                    <p id="reg">Current irish taters:&nbsp;<span id="iPotatoInventory">0</span></p>
+                </p>
+                </div>
+    </div>
+    <p id="event">Events:</p>
+    <div id="messages" class="responsive">
+        <p id="increase1"></p>
+        <p id="increase2"></p>
+        <p id="increase3"></p>
+        <p id="increase4"></p>
+        <p id="increase5"></p>
+        <p id="increase6"></p>
+        <p id="increase7"></p>
+    </div>
+    
+</body>
+</html>

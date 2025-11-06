@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+
+button,
+input[type="button"]
+{
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+}
+body
+{
+    font-family: 'Concert One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    background-color: #000;
+    text-align: center;
+}
+
+#header {
+    height: 650px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    border: 3px solid dodgerblue;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+#reg, #regt
+{
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+#reg
+{
+    margin-top: -10px;
+}
+
+#event
+{
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:whitesmoke;
+    font-size: 200%;
+}
+
+#potatoCost, #potatoInventory, #spudCost, #spudInventory, #mashCost, #mashInventory, #sPotatoInventory, #sPotatoCost, #taterCost, #taterInventory, #iPotatoCost, #iPotatoInventory
+{
+  font-size: 3vw;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6
+{
+    width: 40%;
+    height: 350px;
+    display: inline-block;
+    background-color: black;
+    vertical-align: top;
+    border-radius: 50px;
+    border: 3px solid rgb(32,194,14);
+    color: rgb(32,194,14);
+    margin-bottom: 20px;
+}
+
+#wrap1
+{
+    float: right;
+}
+#cash:hover
+{
+    color:green;
+    font-size: 130%;
+}
+
+h2
+{
+    font-size: 300%;
+    color: whitesmoke;
+}
+
+#potatoImage
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/potatoS.gif);
+    background-size: contain;
+}
+
+#potatoImage:hover
+{
+    background-image: url(images/potatoR.gif);
+    background-color: black;
+}
+
+#header2
+{
+    color: whitesmoke;
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 140%;
+}
+
+#messages
+{
+    color: blue;
+    font-family: "M PLUS 1", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 175%;
+}
+
+#responsive
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    border: 3px solid #73AD21;
+}
